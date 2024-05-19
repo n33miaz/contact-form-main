@@ -25,7 +25,6 @@ section {
 #form_nome > div {
     display: flex;
     flex-direction: column;
-
     justify-content: center;
 
     width: 100%;
@@ -53,8 +52,22 @@ section {
 
     width: 100%;
     padding: 1.5%;
+
+    cursor: pointer;
+}
+
+#form_consulta > div > * {
+    cursor: pointer;
 }
 
 #mensagem {
     height: 100px;
+}
+
+#enviar {
+    border: none;
+    background-color: hsl(169, 82%, 27%);
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
 }
