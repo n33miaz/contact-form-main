@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <section>
+    <h1>Contate-nos</h1><br><br>
+
+    <form id="form_nome">
+      <div>
+        <label for="primeiro_nome">Primeiro Nome *</label><br>
+        <input type="text" id="primeiro_nome" name="primeiro_nome">  
+      </div>
+
+      <div>
+        <label for="ultimo_nome">Último Nome *</label><br>
+        <input type="text" id="ultimo_nome" name="ultimo_nome">  
+      </div>     
+    </form><br><br>
+
+    <label for="email" id="label">Endereço de Email *</label><br>
+    <input type="text" id="email" name="email"><br><br>
+
+    <label for="form_consulta" id="label">Tipo de Consulta *</label><br>
+    <form id="form_consulta" name="form_consulta">
+      <div>
+        <input type="radio" id="solicit_geral" value="Geral">
+        <label for="solicit_geral">Solicitação Geral</label>  
+      </div>
+
+      <div>
+        <input type="radio" id="solicit_suporte" value="Solicitar Suporte">
+        <label for="solicit_suporte">Solicitação de Suporte</label>  
+      </div>
+    </form><br><br>
+
+    <label for="mensagem" id="label">Mensagem *</label><br>
+    <input type="text" id="mensagem" name="mensagem"><br><br>
+
+    <div>
+      <input type="checkbox" name="termos" id="termos">
+      <label for="termos">Autorizo ser contatado pela equipe *</label>  
+    </div><br><br>
+
+    <input type="submit">
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">n33miaz</a>.
+  </div>
+</body>
+  <script src=""></script>
+</html>

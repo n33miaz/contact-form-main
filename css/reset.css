@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Karla', sans-serif;
+    border-color: hsl(186, 15%, 59%); 
+}
+
+body {
+    max-height: 1440px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(148, 38%, 91%);
+    color: hsl(187, 24%, 22%);
+}
+
+label {
+    font-size: 16px;
+}
+
+input {
+    border: 1px solid;
+    border-radius: 5px;
+
+    padding: 1.5%;
+}

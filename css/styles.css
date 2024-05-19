@@ -1,0 +1,60 @@
+section {
+    width: 55%;
+    height: 80%;
+    
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 5%;
+    padding: 2%;
+
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+#form_nome, #form_consulta {
+    display: flex;
+    gap: 1.5%;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+#form_nome > div {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    width: 100%;
+}
+
+#form_nome > div > input {
+    padding: 3%;
+}
+
+#form_nome > div > label {
+    margin-bottom: -2%;
+}
+
+#label {
+    margin-bottom: -0.5%;
+}
+
+#form_consulta > div {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+
+    border: 1px solid;
+    border-radius: 5px;
+
+    width: 100%;
+    padding: 1.5%;
+}
+
+#mensagem {
+    height: 100px;
+}
